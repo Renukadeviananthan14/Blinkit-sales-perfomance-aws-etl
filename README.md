@@ -20,26 +20,32 @@ The project follows practical data engineering principles, including data cleani
 ## 🏗️ Architecture
 
 Blinkit Sales Dataset (CSV)
+
           |
           ▼
           
    Extract using Pandas
+   
           |
           ▼
           
    Data Cleaning & Validation
+   
           |
           ▼
           
    Transform Sales Data
+   
           |
           ▼
           
    Calculate Sales Metrics
+   
           |
           ▼
           
    Load Processed Data to AWS S3
+   
           |
           ▼
           
