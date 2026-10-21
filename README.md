@@ -24,32 +24,7 @@ Blinkit Sales Dataset (CSV)
           |
           ▼
           
-   Extract using Pandas
-   
-          |
-          ▼
-          
-   Data Cleaning & Validation
-   
-          |
-          ▼
-          
-   Transform Sales Data
-   
-          |
-          ▼
-          
-   Calculate Sales Metrics
-   
-          |
-          ▼
-          
-   Load Processed Data to AWS S3
-   
-          |
-          ▼
-          
- Analytics-Ready Dataset
+   Extract using Pandas | Data Cleaning & Validation | Transform Sales Data | Calculate Sales Metrics | Load Processed Data to AWS S3 | Analytics-Ready Dataset
 
 ## 🛠️ Technology Stack
 
@@ -86,7 +61,7 @@ Git & GitHub| Version control and project sharing
 
 Example S3 layout
 
-s3://your-bucket-name/
+s3://blinkit-sales-performance/
 ├── raw/
 │   └── blinkit_sales.csv
 └── processed/
