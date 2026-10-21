@@ -22,21 +22,27 @@ The project follows practical data engineering principles, including data cleani
 Blinkit Sales Dataset (CSV)
           |
           ▼
+          
    Extract using Pandas
           |
           ▼
+          
    Data Cleaning & Validation
           |
           ▼
+          
    Transform Sales Data
           |
           ▼
+          
    Calculate Sales Metrics
           |
           ▼
+          
    Load Processed Data to AWS S3
           |
           ▼
+          
  Analytics-Ready Dataset
 
 ## 🛠️ Technology Stack
@@ -48,26 +54,6 @@ Amazon S3| Cloud-based data storage
 Boto3| AWS S3 integration from Python
 Jupyter Notebook / VS Code| Development and testing
 Git & GitHub| Version control and project sharing
-
-## 📂 Project Structure
-
-blinkit-sales-etl/
-│
-├── data/
-│   └── .gitkeep
-│
-├── output/
-│   └── .gitkeep
-│
-├── src/
-│   └── etl_pipeline.py
-│
-├── notebooks/
-│   └── sales_analysis.ipynb
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
 
 ## 🔄 ETL Process
 
