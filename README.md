@@ -1,6 +1,6 @@
-#Blinkit Sales Performance Analysis | AWS S3 + Pandas ETL
+#  Blinkit Sales Performance Analysis | AWS S3 + Pandas ETL
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project demonstrates a cloud-based ETL (Extract, Transform, Load) pipeline for analyzing Blinkit sales data using Python, Pandas, and Amazon S3.
 
@@ -8,7 +8,7 @@ The pipeline extracts raw sales data, cleans and transforms it using Pandas, and
 
 The project follows practical data engineering principles, including data cleaning, transformation, cloud storage, and organized data layers.
 
-🎯 Objectives
+## 🎯 Objectives
 
 - Build an end-to-end ETL pipeline using Python and Pandas.
 - Store raw and processed datasets in Amazon S3.
@@ -17,7 +17,7 @@ The project follows practical data engineering principles, including data cleani
 - Generate sales performance metrics for business analysis.
 - Demonstrate cloud-based data processing using AWS services.
 
-🏗️ Architecture
+## 🏗️ Architecture
 
 Blinkit Sales Dataset (CSV)
           |
@@ -39,7 +39,7 @@ Blinkit Sales Dataset (CSV)
           ▼
  Analytics-Ready Dataset
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 
 Technology| Purpose
 Python| ETL pipeline implementation
@@ -49,7 +49,7 @@ Boto3| AWS S3 integration from Python
 Jupyter Notebook / VS Code| Development and testing
 Git & GitHub| Version control and project sharing
 
-📂 Project Structure
+## 📂 Project Structure
 
 blinkit-sales-etl/
 │
@@ -69,7 +69,7 @@ blinkit-sales-etl/
 ├── .gitignore
 └── README.md
 
-🔄 ETL Process
+## 🔄 ETL Process
 
 1. Extract
 
@@ -100,7 +100,7 @@ s3://your-bucket-name/
 └── processed/
     └── blinkit_sales_cleaned.csv
 
-📊 Business Metrics
+## 📊 Business Metrics
 
 The processed dataset can be used to analyze:
 
@@ -114,9 +114,9 @@ The processed dataset can be used to analyze:
 
 The metrics available depend on the columns present in the source dataset.
 
-⚙️ Installation and Setup
+## ⚙️ Installation and Setup
 
-Prerequisites
+### Prerequisites
 
 - Python 3.10 or later
 - An AWS account
@@ -124,12 +124,12 @@ Prerequisites
 - AWS credentials configured securely
 - A Blinkit sales CSV dataset that you are permitted to use
 
-Step 1: Clone the repository
+### Step 1: Clone the repository
 
 git clone https://github.com/YOUR_USERNAME/blinkit-sales-etl.git
 cd blinkit-sales-etl
 
-Step 2: Create a virtual environment
+### Step 2: Create a virtual environment
 
 python -m venv venv
 
@@ -137,11 +137,11 @@ Activate it on Windows:
 
 venv\Scripts\activate
 
-Step 3: Install dependencies
+### Step 3: Install dependencies
 
 pip install -r requirements.txt
 
-Step 4: Configure AWS credentials
+### Step 4: Configure AWS credentials
 
 Configure your AWS CLI credentials using:
 
@@ -149,24 +149,24 @@ aws configure
 
 Use an IAM identity with only the permissions required for the target S3 bucket. Never commit AWS access keys, secret keys, or other credentials to GitHub.
 
-Step 5: Configure the project
+### Step 5: Configure the project
 
 Set the local input CSV path and target S3 bucket through environment variables or project configuration. Do not hardcode credentials in the source code.
 
-Step 6: Run the ETL pipeline
+### Step 6: Run the ETL pipeline
 
 python src/etl_pipeline.py
 
 The pipeline should validate the input, perform transformations, and upload the resulting files to the configured S3 locations.
 
-📦 Requirements
+### 📦 Requirements
 
 Create a "requirements.txt" file containing:
 
 pandas
 boto3
 
-🔐 Security Best Practices
+### 🔐 Security Best Practices
 
 - Never upload AWS credentials to GitHub.
 - Add ".env", local datasets, and virtual environments to ".gitignore".
@@ -174,7 +174,7 @@ boto3
 - Avoid committing confidential or personally identifiable information.
 - Use synthetic or appropriately licensed sample data when sharing the project publicly.
 
-🚀 Future Enhancements
+### 🚀 Future Enhancements
 
 - Implement Bronze, Silver, and Gold data layers.
 - Convert processed CSV files to Parquet.
@@ -184,17 +184,17 @@ boto3
 - Schedule pipeline execution using an orchestration service.
 - Build a dashboard for sales performance analysis.
 
-💼 Skills Demonstrated
+### 💼 Skills Demonstrated
 
 Data Engineering | ETL Pipelines | Python | Pandas | AWS S3 | Boto3 | Data Quality | Cloud Data Storage | GitHub
 
-👩‍💻 Author
+### 👩‍💻 Author
 
-Renuka Devi Ananthan
-Data Engineering | Python | SQL | AWS | ETL
+#  Renuka Devi Ananthan
+## Data Engineering | Python | SQL | AWS | ETL
 
-- GitHub: https://github.com/YOUR_USERNAME
-- LinkedIn: https://www.linkedin.com/in/YOUR_PROFILE/
+- GitHub: https://github.com/Renukadeviananthan14
+- LinkedIn: https://www.linkedin.com/in/renuka-devi-ananthan-ab104918b
 
 ---
 
